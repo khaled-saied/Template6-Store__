@@ -5,14 +5,18 @@ dataOfProducts = [
         title: "Camera",
         image: "images/work5.jpg",
         desc: "The camera in the image X",
-        size: "medium"
+        size: "medium" ,
+        category: "camera",
+        price: 1000
     },
     {
         id: 2,
         title: "Camera",
         image: "images/work6.jpg",
         desc: "The camera in the image X",
-        size: "large"
+        size: "large",
+        category: "camera",
+        price : 3000
     }
 ]
 

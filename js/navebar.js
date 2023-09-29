@@ -46,8 +46,8 @@ function Nav(){
         signin.style.display='inline-block';
         signup.style.display='inline-block';
         logout.style.display='none';
-        favourote.style.display='none';
-        myproduct.style.display='none';
+        // favourote.style.display='none';
+        // myproduct.style.display='none';
         icon.style.display='none';
     }
 }
