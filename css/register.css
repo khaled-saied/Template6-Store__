@@ -1,0 +1,75 @@
+
+
+body{
+    background-color: #2E4374;
+}
+
+.out{
+    display: block;
+    background-color: #4B527E;
+    height: 290px;
+    width: 700px;
+    padding: 31px;
+    margin: 109px auto;
+    border-radius: 10px;
+}
+
+.out h1{
+    text-align: center;
+    /* color: #FF6969; */
+}
+
+.out input{
+    width: 80%;
+    height: 30px;
+    margin: 15px 11px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+label{
+    color: #DAC0A3;
+}
+
+label i{
+    color: #E5C3A6;
+}
+
+.out input[type="email"]{
+    margin: 0 32px;
+}
+
+.out input[type="text"]{
+    margin: 15px 29px;
+}
+
+.out p{
+    text-align: center;
+    margin: 11px 0;
+}
+
+.out p a{
+    color: #E5C3A6;
+}
+
+button{
+    width: 80%;
+    margin: 0 97px;
+    height: 32px;
+    border: 0;
+    border-radius: 50px;
+    transition: 0.5s;
+    background-color: #123;
+    color: #4d5c81;
+}
+
+button:hover{
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    background-color: #2E4374;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}

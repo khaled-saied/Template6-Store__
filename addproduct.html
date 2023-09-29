@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/addproduct.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html"><h1>Shopping Cart</h1></a>
+        <div class="icon">
+            <a href="#" id="darkmode" ><i class="fa-solid fa-moon fa-xl"></i></a>
+            <a href="#" id="favourote" >Favourites</a>
+            <a href="#" id="myproduct" >My Product</a>
+            <a href="#" id="icon" > <i class="fa-solid fa-cart-shopping"></i> </a>
+            <a href="login.html" id="signin">SignIn</a>
+            <a href="register.html" id="signup">SignUp</a>
+            <a href="register.html" id="logout">logout</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <label for="title">ID Of Product:</label>
+        <input type="number" placeholder="ID.." id="id" />
+
+        <label for="title">Name Of Product:</label>
+        <input type="text" placeholder="title.." id="title" />
+
+        <label for="image">Image Of Product:</label>
+        <input type="file" placeholder="title.." id="image" />
+
+        <label for="price">Price Of Product:</label>
+        <input type="number" placeholder="price.." id="price" />
+
+        <label for="category">Category Of Product:</label>
+        <input type="text" placeholder="Category.." id="category" />
+
+        <label for="select">Size Of Product:</label>
+        <select id="select">
+        <option value="large">Large</option>
+        <option value="medium">Medium</option>
+        <option value="small">Small</option>
+        </select>
+        
+        <textarea id="des" class="desc" placeholder="Enter The Descreption"></textarea>
+
+        <button id="submit" class="submit">Add</button>
+
+    </div>
+
+    <!-- <div id="products" class="container">
+
+    </div> -->
+
+    
+    <script src="js/addproduct.js"></script>
+    <script src="js/navebar.js"></script>
+    
+</body>
+</html>

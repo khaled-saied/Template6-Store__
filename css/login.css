@@ -1,0 +1,68 @@
+
+body{
+    background-color: #2E4374;
+}
+
+.log{
+    display: block;
+    background-color: #4B527E;
+    height: 270px;
+    width: 700px;
+    padding: 31px;
+    margin: 109px auto;
+    border-radius: 10px;
+}
+
+.log h1{
+    text-align: center;
+    /* color: #FF6969; */
+}
+
+label{
+    color: #DAC0A3;
+}
+
+label i{
+    color: #E5C3A6;
+}
+
+.log input{
+    width: 80%;
+    height: 30px;
+    margin: 5px 0 ;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.log input[type="email"]{
+    margin: 22px 28px;
+}
+
+.log p{
+    text-align: center;
+    margin: -9px;
+}
+
+p a{
+    color: #E5C3A6;
+}
+
+.log button{
+    width: 80%;
+    margin: 20px 88px;
+    height: 35px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #123;
+    color: #4d5c81;
+    transition: 0.5s;
+}
+
+.log button:hover{
+    background-color: #2E4374;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
